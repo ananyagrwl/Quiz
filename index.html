@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="quiz" id="quiz">
+        <h1>HTML Quiz for you ...</h1>
+        <div class="box1">
+            <h2 id="question">Question</h2>
+            <div id="options">
+                <input id="opt1" value="opt1" readonly class="opt">
+                <input id="opt2" value="opt2" readonly class="opt">
+                <input id="opt3" value="opt3" readonly class="opt">
+                <input id="opt4" value="opt4" readonly class="opt">
+            </div>
+        </div>
+        <div class="btn"><button onclick="next()" id="next">Next</button></div>
+    </div>
+
+    <!-- REPORT CARD -->
+    <div class="report hide" id="report">
+        <h1>Your Score</h1>
+        <div class="box2">
+            <div class="marks"><span id="score">0</span>/5</div>
+            <button onclick="again()" id="again">Try Again</button>
+        </div>
+    </div>
+
+</body>
+
+<script src="quiz.js"></script>
+
+</html>

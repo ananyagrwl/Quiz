@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #4d0033;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.quiz{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: center;
+}
+.quiz h1{
+    border-bottom: 1px solid #333;
+    padding: 10px;
+    font-size: 30px;
+}
+.box1 h2{
+    padding: 10px;
+}
+.box1{
+    width: 100%;
+}
+
+input{
+    text-decoration: none;
+    background: rgb(221, 220, 220);
+    width: 100%;
+    text-decoration: none;
+    padding: 6px;
+    margin: 6px;
+    text-align: left;
+    border: none;
+}
+input:hover{
+    background: #333;
+    color: white;
+}
+input:focus{
+    border: none;
+    text-decoration: none;
+}
+.hide{
+    display: none;
+}
+.btn{
+    display: flex;
+    justify-content: right;
+}
+#next{
+    width: 20%;
+    height: 25px;
+    text-align: center;
+    background: #4d0033;
+    color: white;
+    justify-content: center;
+}
+#next:hover{
+    background: #75566a;
+    color: white;
+}
+
+ /* report */
+ .report{
+    /* display: flex; */
+    flex-direction: column;
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: center;
+}
+.report h1{
+    border-bottom: 1px solid #333;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+.marks{
+    background: #4d0033;
+    color: white;
+    width: 15%;
+    height: 40%;
+    padding: 10px;
+}
+#again{
+    width: 50%;
+    height: 25px;
+    text-align: center;
+    background: #4d0033;
+    color: white;
+    justify-content: center;
+}
+#again:hover{
+    background: #75566a;
+    color: white;
+}
